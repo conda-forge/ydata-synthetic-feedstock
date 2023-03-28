@@ -1,5 +1,5 @@
 {% set name = "ydata-synthetic" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ydata-synthetic-{{ version }}.tar.gz
-  sha256: e49e2cc09aa226ab5d919cee2fb2cb5ebcdb89c7a114dc7aa01660ee7652fadb
+  sha256: 7a3117ec04493fe8db97933d5918503ee687768f6f6027610dc0a099400ee96e
 
 build:
   noarch: python
